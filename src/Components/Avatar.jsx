@@ -3,7 +3,7 @@ export function Avatar({hasBorder = true, src}){
   return(
     <img 
     className={hasBorder ? styles.avatarWithBorder : styles.avatar}
-    src="https://github.com/sbiaa.png"
+   src={src}
   />
   )
 }

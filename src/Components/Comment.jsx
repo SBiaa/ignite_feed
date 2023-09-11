@@ -4,17 +4,17 @@ import {Avatar} from './Avatar'
 export function Comment(){
   return(
     <div className={styles.comment}>
-      <Avatar hasBorder={false}/>
+      <Avatar hasBorder={false}  src="https://github.com/diego3g.png"/>
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
               <strong>Bia Siqueira</strong>
-              <time>Cerca de 1h atrás</time>
+              <time title='' dateTime=''> Cerca de 1h atrás</time>
             </div>
 
             <button title='Deletar comentário'>
-              <Trash size={20}/>
+              <Trash size={24}/>
             </button>
           </header>
 

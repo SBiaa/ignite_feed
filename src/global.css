@@ -16,13 +16,13 @@
 
 :focus{
   outline: transparent;
-  box-shadow: 0 0 0 2px var(--gray-500)
+  box-shadow: 0 0 0 2px var(--green-500)
 }
 
 *{
   margin: 0;
   padding: 0;
-  box-sizing: boder-box
+  box-sizing: border-box;
 }
 
 body{
